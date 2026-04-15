@@ -1,0 +1,1 @@
+python saap.py --base_model /home/easyai/llm_weights/decapoda-llama-7b-hf --save_ckpt_log_name prunellm --pruning_ratio 0.2

@@ -1,0 +1,82 @@
+2026-04-16 05:24:56 - INFO :       [cuda11_bridge] cuda_version=11.8 | cuda_available=1 | device=NVIDIA GeForce RTX 4090 | texture_reference=1 | surface_reference=1 | native_reference=None
+2026-04-16 05:25:08 - INFO :       [load_model] done in 11.7s
+2026-04-16 05:25:13 - INFO :       [stage.pass] wrapper | elapsed=17.0023s
+2026-04-16 05:25:13 - INFO :       [stage.pass] wrapper | elapsed=17.0027s
+2026-04-16 05:25:13 - INFO :       [stage.pass] wrapper | elapsed=0.0000s
+2026-04-16 05:25:13 - INFO :       Start Pruning
+2026-04-16 05:25:13 - INFO :       prune_probe: after_structural_context
+2026-04-16 05:25:13 - INFO :       prune_probe: before_pruning_strategy
+2026-04-16 05:25:13 - INFO :       prune_probe: entered_SAAP
+2026-04-16 05:25:13 - INFO :       prune_probe: calibration_ready
+2026-04-16 05:25:49 - INFO :       prune_probe: coarse_fine_stats_ready
+2026-04-16 05:26:33 - INFO :       prune_probe: layer_prune_loop_start
+2026-04-16 05:26:33 - INFO :       prune_layer: mlp layer=4
+2026-04-16 05:26:35 - INFO :       prune_layer: attn layer=4
+2026-04-16 05:26:35 - INFO :       prune_layer: mlp layer=5
+2026-04-16 05:26:40 - INFO :       prune_layer: attn layer=5
+2026-04-16 05:26:40 - INFO :       prune_layer: mlp layer=6
+2026-04-16 05:26:46 - INFO :       prune_layer: attn layer=6
+2026-04-16 05:26:46 - INFO :       prune_layer: mlp layer=7
+2026-04-16 05:26:51 - INFO :       prune_layer: attn layer=7
+2026-04-16 05:26:51 - INFO :       prune_layer: mlp layer=8
+2026-04-16 05:26:57 - INFO :       prune_layer: attn layer=8
+2026-04-16 05:26:57 - INFO :       prune_layer: mlp layer=9
+2026-04-16 05:27:02 - INFO :       prune_layer: attn layer=9
+2026-04-16 05:27:02 - INFO :       prune_layer: mlp layer=10
+2026-04-16 05:27:08 - INFO :       prune_layer: attn layer=10
+2026-04-16 05:27:08 - INFO :       prune_layer: mlp layer=11
+2026-04-16 05:27:13 - INFO :       prune_layer: attn layer=11
+2026-04-16 05:27:13 - INFO :       prune_layer: mlp layer=12
+2026-04-16 05:27:18 - INFO :       prune_layer: attn layer=12
+2026-04-16 05:27:19 - INFO :       prune_layer: mlp layer=13
+2026-04-16 05:27:24 - INFO :       prune_layer: attn layer=13
+2026-04-16 05:27:24 - INFO :       prune_layer: mlp layer=14
+2026-04-16 05:27:29 - INFO :       prune_layer: attn layer=14
+2026-04-16 05:27:30 - INFO :       prune_layer: mlp layer=15
+2026-04-16 05:27:35 - INFO :       prune_layer: attn layer=15
+2026-04-16 05:27:35 - INFO :       prune_layer: mlp layer=16
+2026-04-16 05:27:40 - INFO :       prune_layer: attn layer=16
+2026-04-16 05:27:40 - INFO :       prune_layer: mlp layer=17
+2026-04-16 05:27:46 - INFO :       prune_layer: attn layer=17
+2026-04-16 05:27:46 - INFO :       prune_layer: mlp layer=18
+2026-04-16 05:27:51 - INFO :       prune_layer: attn layer=18
+2026-04-16 05:27:51 - INFO :       prune_layer: mlp layer=19
+2026-04-16 05:27:57 - INFO :       prune_layer: attn layer=19
+2026-04-16 05:27:57 - INFO :       prune_layer: mlp layer=20
+2026-04-16 05:28:02 - INFO :       prune_layer: attn layer=20
+2026-04-16 05:28:02 - INFO :       prune_layer: mlp layer=21
+2026-04-16 05:28:07 - INFO :       prune_layer: attn layer=21
+2026-04-16 05:28:08 - INFO :       prune_layer: mlp layer=22
+2026-04-16 05:28:13 - INFO :       prune_layer: attn layer=22
+2026-04-16 05:28:13 - INFO :       prune_layer: mlp layer=23
+2026-04-16 05:28:18 - INFO :       prune_layer: attn layer=23
+2026-04-16 05:28:18 - INFO :       prune_layer: mlp layer=24
+2026-04-16 05:28:23 - INFO :       [post_reconstruct_ffn] layer=24 | tokens=1024 | in_features=7936 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:23 - INFO :       prune_layer: attn layer=24
+2026-04-16 05:28:23 - INFO :       prune_layer: mlp layer=25
+2026-04-16 05:28:28 - INFO :       [post_reconstruct_ffn] layer=25 | tokens=1024 | in_features=8320 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:28 - INFO :       prune_layer: attn layer=25
+2026-04-16 05:28:28 - INFO :       prune_layer: mlp layer=26
+2026-04-16 05:28:32 - INFO :       [post_reconstruct_ffn] layer=26 | tokens=1024 | in_features=8448 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:32 - INFO :       prune_layer: attn layer=26
+2026-04-16 05:28:32 - INFO :       prune_layer: mlp layer=27
+2026-04-16 05:28:36 - INFO :       [post_reconstruct_ffn] layer=27 | tokens=1024 | in_features=8576 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:36 - INFO :       prune_layer: attn layer=27
+2026-04-16 05:28:36 - INFO :       prune_layer: mlp layer=28
+2026-04-16 05:28:40 - INFO :       [post_reconstruct_ffn] layer=28 | tokens=1024 | in_features=8320 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:40 - INFO :       prune_layer: attn layer=28
+2026-04-16 05:28:40 - INFO :       prune_layer: mlp layer=29
+2026-04-16 05:28:45 - INFO :       [post_reconstruct_ffn] layer=29 | tokens=1024 | in_features=7936 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:45 - INFO :       prune_layer: attn layer=29
+2026-04-16 05:28:45 - INFO :       prune_layer: mlp layer=30
+2026-04-16 05:28:50 - INFO :       [post_reconstruct_ffn] layer=30 | tokens=1024 | in_features=7936 | out_features=4096 | alpha=0.05 | max_delta_ratio=0.03 | status=1
+2026-04-16 05:28:50 - INFO :       prune_layer: attn layer=30
+2026-04-16 05:28:53 - INFO :       [prune] step 1/1 | elapsed 219.2s | eta 0.0s
+2026-04-16 05:28:53 - INFO :       [prune] step 1/1 | elapsed 219.2s | eta 0.0s | iter 219.2s
+2026-04-16 05:28:53 - INFO :       [prune] done in 219.2s
+2026-04-16 05:28:53 - INFO :       [stage.pass] wrapper | elapsed=219.2425s
+2026-04-16 05:47:07 - INFO :       [auto_eval_after_save] done | summary=/home/easyai/下载/SAAP_code/SAAP/SAAPcode/core/prune_log/prunellm/2026-04-16-05-24-56/eval_after_prune/eval_summary.json
+2026-04-16 05:47:07 - INFO :       [stage.pass] wrapper | elapsed=1094.5757s
+2026-04-16 05:47:07 - INFO :       Memory Requirement: 10731.7734375 MiB
+
+2026-04-16 05:47:07 - INFO :       [stage.pass] wrapper | elapsed=0.0089s

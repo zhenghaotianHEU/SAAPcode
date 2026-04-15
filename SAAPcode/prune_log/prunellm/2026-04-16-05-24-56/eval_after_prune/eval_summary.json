@@ -1,0 +1,10 @@
+{
+  "model_dir": "/home/easyai/下载/SAAP_code/SAAP/SAAPcode/core/prune_log/prunellm/2026-04-16-05-24-56",
+  "object_ckpt": "/home/easyai/下载/SAAP_code/SAAP/SAAPcode/core/prune_log/prunellm/2026-04-16-05-24-56/pytorch_model_pruned.bin",
+  "started_at": "2026-04-16 05:29:05",
+  "ppl_json": "/home/easyai/下载/SAAP_code/SAAP/SAAPcode/core/prune_log/prunellm/2026-04-16-05-24-56/eval_after_prune/ppl.json",
+  "lm_eval_returncode": 0,
+  "lm_eval_json": "/home/easyai/下载/SAAP_code/SAAP/SAAPcode/core/prune_log/prunellm/2026-04-16-05-24-56/eval_after_prune/lm_eval_7tasks.json",
+  "lm_eval_log": "/home/easyai/下载/SAAP_code/SAAP/SAAPcode/core/prune_log/prunellm/2026-04-16-05-24-56/eval_after_prune/lm_eval_7tasks.log",
+  "finished_at": "2026-04-16 05:47:07"
+}
